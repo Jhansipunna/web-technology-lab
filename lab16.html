@@ -1,19 +1,17 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>Events</title>
-<script>
-function mover()
-{
-document.getElementById("img").src="flag.jpg";
-}
-function mout()
-{
-document.getElementById("img").src="map.jpg";
+<script type = "text/javascript">
+    function mouseover()
+    {
+        document.getElementById("img").src = "flag.jpg";
+    }
+    function mouseout()
+    {
+        document.getElementById("img").src = map.jpg;
+    }
 </script>
 </head>
 <body>
-<img src="Map.jpg"id="img"on mouseover="mover()";
-on mouseout="mout()";
+<img src = "map.jpg" id = "img" onmouseover="mouseover()" onmouseout="mouseout()"/>
 </body>
 </html>
